@@ -22,10 +22,10 @@ namespace QualisysConfig
         ///     Tipo de dato genérico.
         /// </typeparam>
         /// <param name="pStrKey">
-        ///     Recibe la llave de la configuración.
+        ///     Llave de la configuración.
         /// </param>
         /// <returns>
-        ///     Retorna el valor de la configuración
+        ///     Valor de la configuración
         /// </returns>
         public static T GetValue<T>(string pStrKey) where T : IConvertible
         {
