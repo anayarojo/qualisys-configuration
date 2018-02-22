@@ -145,5 +145,20 @@ namespace QualisysConfigTests
             // Assert
             Assert.AreEqual(lUnkResult, lEnmExpectedValue);
         }
+
+        [TestMethod]
+        public void ConnectionString()
+        {
+            // Act
+            var lUnkResult = QsConfig.GetConnectionString("Connection");
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void NullConnectionString()
+        {
+            // Act
+            var lUnkResult = QsConfig.GetConnectionString("NullConnection");
+        }
     }
 }

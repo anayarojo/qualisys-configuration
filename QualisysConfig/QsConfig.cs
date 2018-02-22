@@ -51,5 +51,19 @@ namespace QualisysConfig
 
             return lUknResultValue;
         }
+
+        /// <summary>
+        ///     Método para obtener la cadena de conexión.
+        /// </summary>
+        /// <param name="pStrConnectionName">
+        ///     Nombre de la cadena de conexión
+        /// </param>
+        /// <returns>
+        ///     Cadena de conexion
+        /// </returns>
+        public static string GetConnectionString(string pStrConnectionName)
+        {
+            return ConfigurationManager.ConnectionStrings[pStrConnectionName].ConnectionString;
+        }
     }
 }
