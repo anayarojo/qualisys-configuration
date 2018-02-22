@@ -1,5 +1,5 @@
 # Qualisys Configuration
-Ejemplo básico de pruebas unitarias en C#
+Basic example with unit tests on c#
 
 Configuration example:
 
