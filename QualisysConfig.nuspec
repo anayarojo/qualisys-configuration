@@ -5,10 +5,11 @@
     <version>1.0.0</version>
     <authors>anayarojo</authors>
     <owners>anayarojo</owners>
-    <licenseUrl>https://github.com/anayarojo/qualisys-log</licenseUrl>
-    <projectUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/LICENSE</projectUrl>
-    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/icon.PNG?raw=true</iconUrl>
+    <licenseUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/anayarojo/qualisys-log</projectUrl>
+    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/icon.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<title>Qualisys Config</title>
     <description>Utilería para obtener configuraciones en un tipo de dato específico.</description>
     <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
     <copyright>Copyright 2018 anayarojo</copyright>
