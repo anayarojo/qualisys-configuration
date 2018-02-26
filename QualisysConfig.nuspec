@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>QualisysConfig</id>
+    <version>1.0.0</version>
+    <authors>anayarojo</authors>
+    <owners>anayarojo</owners>
+    <licenseUrl>https://github.com/anayarojo/qualisys-log</licenseUrl>
+    <projectUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/LICENSE</projectUrl>
+    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/icon.PNG?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utilería para obtener configuraciones en un tipo de dato específico.</description>
+    <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
+    <copyright>Copyright 2018 anayarojo</copyright>
+    <tags>QualisysConfig Config Qualisys</tags>
+    <!--<dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+	-->
+  </metadata>
+  <files>
+	<file src="QualisysConfig\bin\Release\QualisysConfig.dll" target="lib\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release\QualisysConfig.xml" target="lib\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release\app.config.transform" target="content\app.config.transform" />
+	<file src="QualisysConfig\bin\Release\web.config.transform" target="content\web.config.transform" />
+  </files>
+</package>
