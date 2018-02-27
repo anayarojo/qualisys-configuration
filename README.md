@@ -1,7 +1,13 @@
-# Qualisys Configuration
-Basic example with unit tests on c#
+## Qualisys Configuration
+Utility to obtain configurations in a specific data type.
 
-Configuration example:
+#### Nuget installation:
+
+```
+Install-Package QualisysConfig -Version 1.0.0
+```
+
+#### Configuration example:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -24,7 +30,7 @@ Configuration example:
 </configuration>
 ```
 
-Basic use example:
+#### Basic use example:
 
 ```csharp
 using System;
@@ -54,3 +60,7 @@ public enum SampleEnum
     ENUM_C
 }
 ```
+
+See more
+
+[Nuget package page](https://www.nuget.org/packages/QualisysConfig/)
