@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>QualisysConfig</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>anayarojo</authors>
     <owners>anayarojo</owners>
     <licenseUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/anayarojo/qualisys-log</projectUrl>
-    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/qualisysconfig/icon.png?raw=true</iconUrl>
+    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/QualisysConfig/icon.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<title>Qualisys Config</title>
     <description>Utilería para obtener configuraciones en un tipo de dato específico.</description>
@@ -20,8 +20,20 @@
 	-->
   </metadata>
   <files>
-	<file src="QualisysConfig\bin\Release\QualisysConfig.dll" target="lib\QualisysConfig.dll" />
-	<file src="QualisysConfig\bin\Release\QualisysConfig.xml" target="lib\QualisysConfig.xml" />
+	<!--DLL AND DOC-->
+	<file src="QualisysConfig\bin\Release-net4\QualisysConfig.dll" target="lib\net4\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net4\QualisysConfig.xml" target="lib\net4\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release-net45\QualisysConfig.dll" target="lib\net45\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net45\QualisysConfig.xml" target="lib\net45\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release-net451\QualisysConfig.dll" target="lib\net451\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net451\QualisysConfig.xml" target="lib\net451\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release-net452\QualisysConfig.dll" target="lib\net452\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net452\QualisysConfig.xml" target="lib\net452\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release-net46\QualisysConfig.dll" target="lib\net46\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net46\QualisysConfig.xml" target="lib\net46\QualisysConfig.xml" />
+	<file src="QualisysConfig\bin\Release-net461\QualisysConfig.dll" target="lib\net461\QualisysConfig.dll" />
+	<file src="QualisysConfig\bin\Release-net461\QualisysConfig.xml" target="lib\net461\QualisysConfig.xml" />
+	<!-- SAMPLE CONFIG -->
 	<file src="QualisysConfig\bin\Release\app.config.transform" target="content\app.config.transform" />
 	<file src="QualisysConfig\bin\Release\web.config.transform" target="content\web.config.transform" />
   </files>

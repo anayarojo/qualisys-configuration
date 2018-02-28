@@ -4,7 +4,7 @@ Utility to obtain configurations in a specific data type.
 #### Nuget installation:
 
 ```
-Install-Package QualisysConfig -Version 1.0.1
+Install-Package QualisysConfig -Version 1.0.3
 ```
 
 #### Configuration example:
