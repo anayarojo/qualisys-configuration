@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>QualisysConfig</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>anayarojo</authors>
     <owners>anayarojo</owners>
     <licenseUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/anayarojo/qualisys-log</projectUrl>
-    <iconUrl>https://github.com/anayarojo/qualisys-configuration/blob/master/QualisysConfig/icon.png?raw=true</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/anayarojo/qualisys-configuration/master/QualisysConfig/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<title>Qualisys Config</title>
+	  <title>Qualisys Config</title>
     <description>Utilería para obtener configuraciones en un tipo de dato específico.</description>
     <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
     <copyright>Copyright 2018 anayarojo</copyright>
-    <tags>QualisysConfig Config Qualisys</tags>
+    <tags>qualisys-config config qualisys anayarojo</tags>
     <!--<dependencies>
       <dependency id="SampleDependency" version="1.0" />
     </dependencies>
